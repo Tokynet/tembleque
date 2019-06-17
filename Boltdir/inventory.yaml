@@ -1,0 +1,5 @@
+---
+nodes: [165.22.44.200]
+config:
+  ssh:
+    host-key-check: false

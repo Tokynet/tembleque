@@ -1,0 +1,10 @@
+concurrency: 10
+format: human
+ssh:
+  connect-timeout: 30
+  host-key-check: false
+  private-key: ~/.ssh/personal/digitalocean2019
+  user: centos
+  run-as: root
+#  run-as-command:
+#    - 'sudo su -'
